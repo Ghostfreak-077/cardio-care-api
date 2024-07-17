@@ -1,26 +1,30 @@
 {
   "name": "cardio-care-api",
   "version": "1.0.0",
-  "description": "api to take the input of max30100",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parthaxntn/cardio-care-api.git"
+    "url": "git+https://github.com/Ghostfreak-077/cardio-care-api.git"
   },
-  "keywords": [
-    "cardio-care"
-  ],
-  "author": "partha",
+  "author": "Aditya Verma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/parthaxntn/cardio-care-api/issues"
+    "url": "https://github.com/Ghostfreak-077/cardio-care-api/issues"
   },
-  "homepage": "https://github.com/parthaxntn/cardio-care-api#readme",
+  "homepage": "https://github.com/Ghostfreak-077/cardio-care-api#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20"
   }
 }
