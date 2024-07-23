@@ -26,5 +26,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 const user = require("./routes/userRoute.js");
 
 app.use("/api/", user);
+app.get('/test', (req,res)=>{
+    res.send("CardioCare is running");
+})
 
 module.exports = app;
